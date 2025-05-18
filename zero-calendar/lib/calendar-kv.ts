@@ -1,8 +1,10 @@
 import { createClient } from "@vercel/kv"
 
 
-const KV_REST_API_URL = "https://pet-scorpion-19203.upstash.io"
-const KV_REST_API_TOKEN = "AUsDAAIjcDFiNzI1ZDEwMGU0YmM0NWIzYjlkNjgzN2RhOGU3YjQ2OXAxMA"
+const KV_REST_API_URL = "YOUR_KV_REST_API_URL"
+// This is the token for the KV REST API. You can find it in your Vercel dashboard under the KV settings.
+const KV_REST_API_TOKEN = "YOUR_KV_REST_API_TOKEN"
+
 
 
 export const calendarKv = createClient({
